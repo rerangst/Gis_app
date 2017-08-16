@@ -1,0 +1,52 @@
+d:\documents\visual studio 2010\Projects\GiS_app_tmp\App_tmp\bin\Debug\App_tmp.exe
+d:\documents\visual studio 2010\Projects\GiS_app_tmp\App_tmp\bin\Debug\App_tmp.pdb
+d:\documents\visual studio 2010\Projects\GiS_app_tmp\App_tmp\obj\x86\Debug\App_tmp.fLogin.resources
+d:\documents\visual studio 2010\Projects\GiS_app_tmp\App_tmp\obj\x86\Debug\App_tmp.Properties.Resources.resources
+d:\documents\visual studio 2010\Projects\GiS_app_tmp\App_tmp\obj\x86\Debug\App_tmp.csproj.GenerateResource.Cache
+d:\documents\visual studio 2010\Projects\GiS_app_tmp\App_tmp\obj\x86\Debug\App_tmp.exe
+d:\documents\visual studio 2010\Projects\GiS_app_tmp\App_tmp\obj\x86\Debug\App_tmp.pdb
+d:\documents\visual studio 2010\Projects\GiS_app_tmp\App_tmp\bin\Debug\Interop.MapWinGIS.dll
+d:\documents\visual studio 2010\Projects\GiS_app_tmp\App_tmp\bin\Debug\AxInterop.MapWinGIS.dll
+d:\documents\visual studio 2010\Projects\GiS_app_tmp\App_tmp\obj\x86\Debug\Interop.MapWinGIS.dll
+d:\documents\visual studio 2010\Projects\GiS_app_tmp\App_tmp\obj\x86\Debug\AxInterop.MapWinGIS.dll
+d:\documents\visual studio 2010\Projects\GiS_app_tmp\App_tmp\obj\x86\Debug\App_tmp.csproj.ResolveComReference.cache
+d:\documents\visual studio 2010\Projects\GiS_app_tmp\App_tmp\obj\x86\Debug\App_tmp.Form1.resources
+d:\documents\visual studio 2010\Projects\GiS_app_tmp\App_tmp\obj\x86\Debug\App_tmp.fAdmin.resources
+d:\documents\visual studio 2010\Projects\GiS_app_tmp\App_tmp\bin\Debug\Mono.Security.dll
+d:\documents\visual studio 2010\Projects\GiS_app_tmp\App_tmp\bin\Debug\Npgsql.xml
+d:\documents\visual studio 2010\Projects\GiS_app_tmp\App_tmp\bin\Debug\de\Npgsql.resources.dll
+d:\documents\visual studio 2010\Projects\GiS_app_tmp\App_tmp\bin\Debug\es\Npgsql.resources.dll
+d:\documents\visual studio 2010\Projects\GiS_app_tmp\App_tmp\bin\Debug\fi\Npgsql.resources.dll
+d:\documents\visual studio 2010\Projects\GiS_app_tmp\App_tmp\bin\Debug\fr\Npgsql.resources.dll
+d:\documents\visual studio 2010\Projects\GiS_app_tmp\App_tmp\bin\Debug\ja\Npgsql.resources.dll
+d:\documents\visual studio 2010\Projects\GiS_app_tmp\App_tmp\bin\Debug\zh-CN\Npgsql.resources.dll
+d:\documents\visual studio 2010\Projects\GiS_app_tmp\App_tmp\obj\x86\Debug\App_tmp.csprojResolveAssemblyReference.cache
+d:\documents\visual studio 2010\Projects\GiS_app_tmp\App_tmp\obj\x86\Debug\App_tmp.LoadData.resources
+D:\Documents\Visual Studio 2010\Projects\GiS_app_tmp\App_tmp\obj\x86\Debug\App_tmp.fShowData.resources
+D:\Documents\Visual Studio 2010\Projects\GiS_app_tmp\App_tmp\obj\x86\Debug\App_tmp.fSelectLayer.resources
+I:\GiS_app_tmp\App_tmp\obj\x86\Debug\Interop.MapWinGIS.dll
+I:\GiS_app_tmp\App_tmp\obj\x86\Debug\AxInterop.MapWinGIS.dll
+I:\GiS_app_tmp\App_tmp\obj\x86\Debug\App_tmp.csproj.ResolveComReference.cache
+I:\GiS_app_tmp\App_tmp\obj\x86\Debug\App_tmp.exe
+I:\GiS_app_tmp\App_tmp\obj\x86\Debug\App_tmp.pdb
+I:\GiS_app_tmp\App_tmp\bin\Debug\App_tmp.exe
+I:\GiS_app_tmp\App_tmp\bin\Debug\App_tmp.pdb
+I:\GiS_app_tmp\App_tmp\bin\Debug\Mono.Security.dll
+I:\GiS_app_tmp\App_tmp\bin\Debug\Npgsql.xml
+I:\GiS_app_tmp\App_tmp\bin\Debug\de\Npgsql.resources.dll
+I:\GiS_app_tmp\App_tmp\bin\Debug\es\Npgsql.resources.dll
+I:\GiS_app_tmp\App_tmp\bin\Debug\fi\Npgsql.resources.dll
+I:\GiS_app_tmp\App_tmp\bin\Debug\fr\Npgsql.resources.dll
+I:\GiS_app_tmp\App_tmp\bin\Debug\ja\Npgsql.resources.dll
+I:\GiS_app_tmp\App_tmp\bin\Debug\zh-CN\Npgsql.resources.dll
+I:\GiS_app_tmp\App_tmp\bin\Debug\Interop.MapWinGIS.dll
+I:\GiS_app_tmp\App_tmp\bin\Debug\AxInterop.MapWinGIS.dll
+I:\GiS_app_tmp\App_tmp\obj\x86\Debug\App_tmp.csprojResolveAssemblyReference.cache
+I:\GiS_app_tmp\App_tmp\obj\x86\Debug\App_tmp.fAdmin.resources
+I:\GiS_app_tmp\App_tmp\obj\x86\Debug\App_tmp.fLogin.resources
+I:\GiS_app_tmp\App_tmp\obj\x86\Debug\App_tmp.Form1.resources
+I:\GiS_app_tmp\App_tmp\obj\x86\Debug\App_tmp.fSelectLayer.resources
+I:\GiS_app_tmp\App_tmp\obj\x86\Debug\App_tmp.fShowData.resources
+I:\GiS_app_tmp\App_tmp\obj\x86\Debug\App_tmp.LoadData.resources
+I:\GiS_app_tmp\App_tmp\obj\x86\Debug\App_tmp.Properties.Resources.resources
+I:\GiS_app_tmp\App_tmp\obj\x86\Debug\App_tmp.csproj.GenerateResource.Cache
