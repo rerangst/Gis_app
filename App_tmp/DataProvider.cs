@@ -41,8 +41,7 @@ namespace App_tmp
         #endregion      
         public DataTable ExecuteQuery(string query) 
         {
-            DataSet ds = new DataSet();
-            
+            DataSet ds = new DataSet();            
             DataTable dt = new DataTable();
             //using (NpgsqlConnection conn = new NpgsqlConnection(connStr))
                 this.OpenConn();

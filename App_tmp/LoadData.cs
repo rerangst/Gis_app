@@ -12,9 +12,9 @@ namespace App_tmp
 {
     public partial class LoadData : Form
     {
-        private static string CONNECTION_STRING = "PG:host=localhost dbname=tmpData user=postgres password=56tyghbn";
+        private static string CONNECTION_STRING = "PG:host=localhost dbname=gisdb user=postgres password=56tyghbn";
         public delegate void SfLoad(string sfName, Shapefile tmp_sf);
-        public event SfLoad Add;        
+        public event SfLoad Add;
         public LoadData()
         {
             InitializeComponent();
@@ -68,7 +68,17 @@ namespace App_tmp
             ds.Open(CONNECTION_STRING);
             string sfName = lvData.SelectedItems[0].Text;
             Shapefile sf = ds.GetLayer(lvData.SelectedItems[0].Index).GetBuffer();
-            Add(sfName, sf);           
+            Add(sfName, sf);
+        }
+
+        private void btnRefersh_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnConnect_Click(object sender, EventArgs e)
+        {
+
         }
     }
 

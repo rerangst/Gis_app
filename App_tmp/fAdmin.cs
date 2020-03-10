@@ -89,8 +89,7 @@ namespace App_tmp
                 if (item is TextBox)
                 {
                     s[i]= item.Text;
-                    i++;
-                    
+                    i++;                    
                 }
             }
         }

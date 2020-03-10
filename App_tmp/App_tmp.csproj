@@ -11,7 +11,8 @@
     <RootNamespace>App_tmp</RootNamespace>
     <AssemblyName>App_tmp</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
-    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
@@ -34,7 +35,14 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Npgsql">
+    <Reference Include="itextsharp">
+      <HintPath>Properties\itextsharp-dll-core\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Security">
+      <HintPath>..\..\..\..\..\Desktop\Npgsql.2.2.3\lib\net40\Mono.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="Npgsql, Version=2.2.3.0, Culture=neutral, PublicKeyToken=5d8b90d52f46fda7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\..\..\Desktop\Npgsql.2.2.3\lib\net40\Npgsql.dll</HintPath>
     </Reference>
     <Reference Include="System" />
@@ -50,6 +58,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DataProvider.cs" />
+    <Compile Include="ExportPDF.cs" />
     <Compile Include="fSelectLayer.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -61,6 +70,12 @@
     </Compile>
     <Compile Include="fShowData.Designer.cs">
       <DependentUpon>fShowData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fShowTable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fShowTable.Designer.cs">
+      <DependentUpon>fShowTable.cs</DependentUpon>
     </Compile>
     <Compile Include="MapDataSource.cs" />
     <Compile Include="fAdmin.cs">
@@ -90,6 +105,7 @@
     <Compile Include="NpgSQL.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SpatialQuery.cs" />
     <EmbeddedResource Include="fAdmin.resx">
       <DependentUpon>fAdmin.cs</DependentUpon>
     </EmbeddedResource>
@@ -105,6 +121,9 @@
     <EmbeddedResource Include="fShowData.resx">
       <DependentUpon>fShowData.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="fShowTable.resx">
+      <DependentUpon>fShowTable.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="LoadData.resx">
       <DependentUpon>LoadData.cs</DependentUpon>
     </EmbeddedResource>
@@ -116,7 +135,9 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="app.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -154,6 +175,48 @@
       <Isolated>False</Isolated>
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\icons8-Broadcasting-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\icons8-Edit Node-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\icons8-Layers-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\icons8-Radar Plot-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\icons8-Transaction List-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="iconAirport.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-Airport-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-Broadcasting-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-Edit Node-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-Layers-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-Transaction List-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-Radar Plot-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Military-Air-Force-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Autopilot-24.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

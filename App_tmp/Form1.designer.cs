@@ -35,17 +35,15 @@
             this.infoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.adminToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.LayersMenu = new System.Windows.Forms.ToolStripMenuItem();
             this.mnLoadData = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
-            this.zoom_in = new System.Windows.Forms.ToolStripButton();
-            this.zoom_out = new System.Windows.Forms.ToolStripButton();
             this.pan = new System.Windows.Forms.ToolStripButton();
             this.zoom_more = new System.Windows.Forms.ToolStripButton();
             this.test = new System.Windows.Forms.ToolStripButton();
             this.tsbSeclectLayer = new System.Windows.Forms.ToolStripButton();
+            this.tsbQPolygon = new System.Windows.Forms.ToolStripButton();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
-            this.toolStripStatusLabel3 = new System.Windows.Forms.ToolStripStatusLabel();
+            this.lbPrj = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolStripStatusLabel2 = new System.Windows.Forms.ToolStripStatusLabel();
             this.axMap1 = new AxMapWinGIS.AxMap();
@@ -60,7 +58,6 @@
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.fileToolStripMenuItem,
             this.adminToolStripMenuItem,
-            this.LayersMenu,
             this.mnLoadData});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
@@ -105,12 +102,6 @@
             this.adminToolStripMenuItem.Text = "Admin";
             this.adminToolStripMenuItem.Click += new System.EventHandler(this.adminToolStripMenuItem_Click);
             // 
-            // LayersMenu
-            // 
-            this.LayersMenu.Name = "LayersMenu";
-            this.LayersMenu.Size = new System.Drawing.Size(124, 24);
-            this.LayersMenu.Text = "Các lớp hiển thị";
-            // 
             // mnLoadData
             // 
             this.mnLoadData.Name = "mnLoadData";
@@ -122,12 +113,11 @@
             // 
             this.toolStrip1.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden;
             this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.zoom_in,
-            this.zoom_out,
             this.pan,
             this.zoom_more,
             this.test,
-            this.tsbSeclectLayer});
+            this.tsbSeclectLayer,
+            this.tsbQPolygon});
             this.toolStrip1.Location = new System.Drawing.Point(0, 28);
             this.toolStrip1.Name = "toolStrip1";
             this.toolStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.Professional;
@@ -135,71 +125,56 @@
             this.toolStrip1.TabIndex = 3;
             this.toolStrip1.Text = "toolStrip1";
             // 
-            // zoom_in
-            // 
-            this.zoom_in.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.zoom_in.Image = ((System.Drawing.Image)(resources.GetObject("zoom_in.Image")));
-            this.zoom_in.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.zoom_in.Name = "zoom_in";
-            this.zoom_in.Size = new System.Drawing.Size(23, 22);
-            this.zoom_in.Text = "toolStripButton1";
-            this.zoom_in.Click += new System.EventHandler(this.zoom_in_Click);
-            // 
-            // zoom_out
-            // 
-            this.zoom_out.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.zoom_out.Image = ((System.Drawing.Image)(resources.GetObject("zoom_out.Image")));
-            this.zoom_out.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.zoom_out.Name = "zoom_out";
-            this.zoom_out.Size = new System.Drawing.Size(23, 22);
-            this.zoom_out.Text = "toolStripButton2";
-            this.zoom_out.Click += new System.EventHandler(this.zoom_out_Click);
-            // 
             // pan
             // 
             this.pan.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.pan.Image = ((System.Drawing.Image)(resources.GetObject("pan.Image")));
             this.pan.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.pan.Name = "pan";
             this.pan.Size = new System.Drawing.Size(23, 22);
-            this.pan.Text = "toolStripButton3";
+            this.pan.Text = "Di chuyển";
             this.pan.Click += new System.EventHandler(this.pan_Click);
             // 
             // zoom_more
             // 
             this.zoom_more.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.zoom_more.Image = ((System.Drawing.Image)(resources.GetObject("zoom_more.Image")));
             this.zoom_more.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.zoom_more.Name = "zoom_more";
             this.zoom_more.Size = new System.Drawing.Size(23, 22);
-            this.zoom_more.Text = "toolStripButton4";
+            this.zoom_more.Text = "Hiển thị mặc định";
             this.zoom_more.Click += new System.EventHandler(this.zoom_more_Click);
             // 
             // test
             // 
             this.test.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.test.Image = ((System.Drawing.Image)(resources.GetObject("test.Image")));
             this.test.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.test.Name = "test";
             this.test.Size = new System.Drawing.Size(23, 22);
-            this.test.Text = "toolStripButton1";
+            this.test.Text = "Hiển thị thuộc tính các lớp";
             this.test.Click += new System.EventHandler(this.test_Click);
             // 
             // tsbSeclectLayer
             // 
             this.tsbSeclectLayer.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.tsbSeclectLayer.Image = ((System.Drawing.Image)(resources.GetObject("tsbSeclectLayer.Image")));
             this.tsbSeclectLayer.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.tsbSeclectLayer.Name = "tsbSeclectLayer";
             this.tsbSeclectLayer.Size = new System.Drawing.Size(23, 22);
-            this.tsbSeclectLayer.Text = "toolStripButton1";
+            this.tsbSeclectLayer.Text = "Lựa chọn lớp hiển thị";
             this.tsbSeclectLayer.Click += new System.EventHandler(this.tsbSeclectLayer_Click);
+            // 
+            // tsbQPolygon
+            // 
+            this.tsbQPolygon.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.tsbQPolygon.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.tsbQPolygon.Name = "tsbQPolygon";
+            this.tsbQPolygon.Size = new System.Drawing.Size(23, 22);
+            this.tsbQPolygon.Text = "Lựa chọn vùng không gian";
+            this.tsbQPolygon.Click += new System.EventHandler(this.tsbQPolygon_Click);
             // 
             // statusStrip1
             // 
             this.statusStrip1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripStatusLabel3,
+            this.lbPrj,
             this.toolStripStatusLabel1,
             this.toolStripStatusLabel2});
             this.statusStrip1.Location = new System.Drawing.Point(0, 673);
@@ -208,12 +183,12 @@
             this.statusStrip1.TabIndex = 0;
             this.statusStrip1.Text = "statusStrip1";
             // 
-            // toolStripStatusLabel3
+            // lbPrj
             // 
-            this.toolStripStatusLabel3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.toolStripStatusLabel3.Name = "toolStripStatusLabel3";
-            this.toolStripStatusLabel3.Size = new System.Drawing.Size(128, 20);
-            this.toolStripStatusLabel3.Text = "Hệ tọa độ WGS84";
+            this.lbPrj.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lbPrj.Name = "lbPrj";
+            this.lbPrj.Size = new System.Drawing.Size(128, 20);
+            this.lbPrj.Text = "Hệ tọa độ WGS84";
             // 
             // toolStripStatusLabel1
             // 
@@ -275,8 +250,6 @@
         private System.Windows.Forms.ToolStripMenuItem menu_open;
         private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
         private System.Windows.Forms.ToolStrip toolStrip1;
-        private System.Windows.Forms.ToolStripButton zoom_in;
-        private System.Windows.Forms.ToolStripButton zoom_out;
         private System.Windows.Forms.ToolStripButton pan;
         private System.Windows.Forms.ToolStripButton zoom_more;
         private System.Windows.Forms.StatusStrip statusStrip1;
@@ -284,12 +257,12 @@
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel2;
         private System.Windows.Forms.ToolStripButton test;
         private System.Windows.Forms.ToolStripButton tsbSeclectLayer;
-        private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel3;
+        private System.Windows.Forms.ToolStripStatusLabel lbPrj;
         private System.Windows.Forms.ToolStripMenuItem infoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem adminToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem LayersMenu;
         private System.Windows.Forms.ToolStripMenuItem mnLoadData;
         private AxMapWinGIS.AxMap axMap1;
+        private System.Windows.Forms.ToolStripButton tsbQPolygon;
 
     }
 }

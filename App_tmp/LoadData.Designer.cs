@@ -29,14 +29,14 @@
         private void InitializeComponent()
         {
             this.lvData = new System.Windows.Forms.ListView();
-            this.btnConnect = new System.Windows.Forms.Button();
-            this.btnRefersh = new System.Windows.Forms.Button();
-            this.btnAdd = new System.Windows.Forms.Button();
-            this.btnExit = new System.Windows.Forms.Button();
             this.clName = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.clType = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.clFeature = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.clSRID = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.btnConnect = new System.Windows.Forms.Button();
+            this.btnRefersh = new System.Windows.Forms.Button();
+            this.btnAdd = new System.Windows.Forms.Button();
+            this.btnExit = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lvData
@@ -55,43 +55,6 @@
             this.lvData.TabIndex = 0;
             this.lvData.UseCompatibleStateImageBehavior = false;
             this.lvData.View = System.Windows.Forms.View.Details;
-            // 
-            // btnConnect
-            // 
-            this.btnConnect.Location = new System.Drawing.Point(12, 579);
-            this.btnConnect.Name = "btnConnect";
-            this.btnConnect.Size = new System.Drawing.Size(144, 28);
-            this.btnConnect.TabIndex = 1;
-            this.btnConnect.Text = "Change conection";
-            this.btnConnect.UseVisualStyleBackColor = true;
-            // 
-            // btnRefersh
-            // 
-            this.btnRefersh.Location = new System.Drawing.Point(162, 579);
-            this.btnRefersh.Name = "btnRefersh";
-            this.btnRefersh.Size = new System.Drawing.Size(64, 28);
-            this.btnRefersh.TabIndex = 2;
-            this.btnRefersh.Text = "refersh";
-            this.btnRefersh.UseVisualStyleBackColor = true;
-            // 
-            // btnAdd
-            // 
-            this.btnAdd.Location = new System.Drawing.Point(316, 579);
-            this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(144, 28);
-            this.btnAdd.TabIndex = 3;
-            this.btnAdd.Text = "Add layer";
-            this.btnAdd.UseVisualStyleBackColor = true;
-            this.btnAdd.Click +=new System.EventHandler(btnAdd_Click);
-            // 
-            // btnExit
-            // 
-            this.btnExit.Location = new System.Drawing.Point(688, 579);
-            this.btnExit.Name = "btnExit";
-            this.btnExit.Size = new System.Drawing.Size(68, 28);
-            this.btnExit.TabIndex = 4;
-            this.btnExit.Text = "Exit";
-            this.btnExit.UseVisualStyleBackColor = true;
             // 
             // clName
             // 
@@ -112,6 +75,45 @@
             // 
             this.clSRID.Text = "SRID";
             this.clSRID.Width = 114;
+            // 
+            // btnConnect
+            // 
+            this.btnConnect.Location = new System.Drawing.Point(12, 579);
+            this.btnConnect.Name = "btnConnect";
+            this.btnConnect.Size = new System.Drawing.Size(144, 28);
+            this.btnConnect.TabIndex = 1;
+            this.btnConnect.Text = "Change conection";
+            this.btnConnect.UseVisualStyleBackColor = true;
+            this.btnConnect.Click += new System.EventHandler(this.btnConnect_Click);
+            // 
+            // btnRefersh
+            // 
+            this.btnRefersh.Location = new System.Drawing.Point(162, 579);
+            this.btnRefersh.Name = "btnRefersh";
+            this.btnRefersh.Size = new System.Drawing.Size(64, 28);
+            this.btnRefersh.TabIndex = 2;
+            this.btnRefersh.Text = "refersh";
+            this.btnRefersh.UseVisualStyleBackColor = true;
+            this.btnRefersh.Click += new System.EventHandler(this.btnRefersh_Click);
+            // 
+            // btnAdd
+            // 
+            this.btnAdd.Location = new System.Drawing.Point(316, 579);
+            this.btnAdd.Name = "btnAdd";
+            this.btnAdd.Size = new System.Drawing.Size(144, 28);
+            this.btnAdd.TabIndex = 3;
+            this.btnAdd.Text = "Add layer";
+            this.btnAdd.UseVisualStyleBackColor = true;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
+            // 
+            // btnExit
+            // 
+            this.btnExit.Location = new System.Drawing.Point(688, 579);
+            this.btnExit.Name = "btnExit";
+            this.btnExit.Size = new System.Drawing.Size(68, 28);
+            this.btnExit.TabIndex = 4;
+            this.btnExit.Text = "Exit";
+            this.btnExit.UseVisualStyleBackColor = true;
             // 
             // LoadData
             // 

@@ -1,29 +1,3 @@
-d:\documents\visual studio 2010\Projects\GiS_app_tmp\App_tmp\bin\Debug\App_tmp.exe
-d:\documents\visual studio 2010\Projects\GiS_app_tmp\App_tmp\bin\Debug\App_tmp.pdb
-d:\documents\visual studio 2010\Projects\GiS_app_tmp\App_tmp\obj\x86\Debug\App_tmp.fLogin.resources
-d:\documents\visual studio 2010\Projects\GiS_app_tmp\App_tmp\obj\x86\Debug\App_tmp.Properties.Resources.resources
-d:\documents\visual studio 2010\Projects\GiS_app_tmp\App_tmp\obj\x86\Debug\App_tmp.csproj.GenerateResource.Cache
-d:\documents\visual studio 2010\Projects\GiS_app_tmp\App_tmp\obj\x86\Debug\App_tmp.exe
-d:\documents\visual studio 2010\Projects\GiS_app_tmp\App_tmp\obj\x86\Debug\App_tmp.pdb
-d:\documents\visual studio 2010\Projects\GiS_app_tmp\App_tmp\bin\Debug\Interop.MapWinGIS.dll
-d:\documents\visual studio 2010\Projects\GiS_app_tmp\App_tmp\bin\Debug\AxInterop.MapWinGIS.dll
-d:\documents\visual studio 2010\Projects\GiS_app_tmp\App_tmp\obj\x86\Debug\Interop.MapWinGIS.dll
-d:\documents\visual studio 2010\Projects\GiS_app_tmp\App_tmp\obj\x86\Debug\AxInterop.MapWinGIS.dll
-d:\documents\visual studio 2010\Projects\GiS_app_tmp\App_tmp\obj\x86\Debug\App_tmp.csproj.ResolveComReference.cache
-d:\documents\visual studio 2010\Projects\GiS_app_tmp\App_tmp\obj\x86\Debug\App_tmp.Form1.resources
-d:\documents\visual studio 2010\Projects\GiS_app_tmp\App_tmp\obj\x86\Debug\App_tmp.fAdmin.resources
-d:\documents\visual studio 2010\Projects\GiS_app_tmp\App_tmp\bin\Debug\Mono.Security.dll
-d:\documents\visual studio 2010\Projects\GiS_app_tmp\App_tmp\bin\Debug\Npgsql.xml
-d:\documents\visual studio 2010\Projects\GiS_app_tmp\App_tmp\bin\Debug\de\Npgsql.resources.dll
-d:\documents\visual studio 2010\Projects\GiS_app_tmp\App_tmp\bin\Debug\es\Npgsql.resources.dll
-d:\documents\visual studio 2010\Projects\GiS_app_tmp\App_tmp\bin\Debug\fi\Npgsql.resources.dll
-d:\documents\visual studio 2010\Projects\GiS_app_tmp\App_tmp\bin\Debug\fr\Npgsql.resources.dll
-d:\documents\visual studio 2010\Projects\GiS_app_tmp\App_tmp\bin\Debug\ja\Npgsql.resources.dll
-d:\documents\visual studio 2010\Projects\GiS_app_tmp\App_tmp\bin\Debug\zh-CN\Npgsql.resources.dll
-d:\documents\visual studio 2010\Projects\GiS_app_tmp\App_tmp\obj\x86\Debug\App_tmp.csprojResolveAssemblyReference.cache
-d:\documents\visual studio 2010\Projects\GiS_app_tmp\App_tmp\obj\x86\Debug\App_tmp.LoadData.resources
-D:\Documents\Visual Studio 2010\Projects\GiS_app_tmp\App_tmp\obj\x86\Debug\App_tmp.fShowData.resources
-D:\Documents\Visual Studio 2010\Projects\GiS_app_tmp\App_tmp\obj\x86\Debug\App_tmp.fSelectLayer.resources
 I:\GiS_app_tmp\App_tmp\obj\x86\Debug\Interop.MapWinGIS.dll
 I:\GiS_app_tmp\App_tmp\obj\x86\Debug\AxInterop.MapWinGIS.dll
 I:\GiS_app_tmp\App_tmp\obj\x86\Debug\App_tmp.csproj.ResolveComReference.cache
@@ -50,3 +24,32 @@ I:\GiS_app_tmp\App_tmp\obj\x86\Debug\App_tmp.fShowData.resources
 I:\GiS_app_tmp\App_tmp\obj\x86\Debug\App_tmp.LoadData.resources
 I:\GiS_app_tmp\App_tmp\obj\x86\Debug\App_tmp.Properties.Resources.resources
 I:\GiS_app_tmp\App_tmp\obj\x86\Debug\App_tmp.csproj.GenerateResource.Cache
+D:\Documents\Visual Studio 2010\Projects\GiS_app_tmp\App_tmp\bin\Debug\App_tmp.exe
+D:\Documents\Visual Studio 2010\Projects\GiS_app_tmp\App_tmp\bin\Debug\App_tmp.pdb
+D:\Documents\Visual Studio 2010\Projects\GiS_app_tmp\App_tmp\bin\Debug\itextsharp.dll
+D:\Documents\Visual Studio 2010\Projects\GiS_app_tmp\App_tmp\bin\Debug\itextsharp.xml
+D:\Documents\Visual Studio 2010\Projects\GiS_app_tmp\App_tmp\bin\Debug\Npgsql.xml
+D:\Documents\Visual Studio 2010\Projects\GiS_app_tmp\App_tmp\bin\Debug\de\Npgsql.resources.dll
+D:\Documents\Visual Studio 2010\Projects\GiS_app_tmp\App_tmp\bin\Debug\es\Npgsql.resources.dll
+D:\Documents\Visual Studio 2010\Projects\GiS_app_tmp\App_tmp\bin\Debug\fi\Npgsql.resources.dll
+D:\Documents\Visual Studio 2010\Projects\GiS_app_tmp\App_tmp\bin\Debug\fr\Npgsql.resources.dll
+D:\Documents\Visual Studio 2010\Projects\GiS_app_tmp\App_tmp\bin\Debug\ja\Npgsql.resources.dll
+D:\Documents\Visual Studio 2010\Projects\GiS_app_tmp\App_tmp\bin\Debug\zh-CN\Npgsql.resources.dll
+D:\Documents\Visual Studio 2010\Projects\GiS_app_tmp\App_tmp\bin\Debug\Interop.MapWinGIS.dll
+D:\Documents\Visual Studio 2010\Projects\GiS_app_tmp\App_tmp\bin\Debug\AxInterop.MapWinGIS.dll
+D:\Documents\Visual Studio 2010\Projects\GiS_app_tmp\App_tmp\obj\x86\Debug\App_tmp.csprojResolveAssemblyReference.cache
+D:\Documents\Visual Studio 2010\Projects\GiS_app_tmp\App_tmp\obj\x86\Debug\Interop.MapWinGIS.dll
+D:\Documents\Visual Studio 2010\Projects\GiS_app_tmp\App_tmp\obj\x86\Debug\AxInterop.MapWinGIS.dll
+D:\Documents\Visual Studio 2010\Projects\GiS_app_tmp\App_tmp\obj\x86\Debug\App_tmp.csproj.ResolveComReference.cache
+D:\Documents\Visual Studio 2010\Projects\GiS_app_tmp\App_tmp\obj\x86\Debug\App_tmp.fAdmin.resources
+D:\Documents\Visual Studio 2010\Projects\GiS_app_tmp\App_tmp\obj\x86\Debug\App_tmp.fLogin.resources
+D:\Documents\Visual Studio 2010\Projects\GiS_app_tmp\App_tmp\obj\x86\Debug\App_tmp.Form1.resources
+D:\Documents\Visual Studio 2010\Projects\GiS_app_tmp\App_tmp\obj\x86\Debug\App_tmp.fSelectLayer.resources
+D:\Documents\Visual Studio 2010\Projects\GiS_app_tmp\App_tmp\obj\x86\Debug\App_tmp.fShowData.resources
+D:\Documents\Visual Studio 2010\Projects\GiS_app_tmp\App_tmp\obj\x86\Debug\App_tmp.fShowTable.resources
+D:\Documents\Visual Studio 2010\Projects\GiS_app_tmp\App_tmp\obj\x86\Debug\App_tmp.LoadData.resources
+D:\Documents\Visual Studio 2010\Projects\GiS_app_tmp\App_tmp\obj\x86\Debug\App_tmp.Properties.Resources.resources
+D:\Documents\Visual Studio 2010\Projects\GiS_app_tmp\App_tmp\obj\x86\Debug\App_tmp.csproj.GenerateResource.Cache
+D:\Documents\Visual Studio 2010\Projects\GiS_app_tmp\App_tmp\obj\x86\Debug\App_tmp.exe
+D:\Documents\Visual Studio 2010\Projects\GiS_app_tmp\App_tmp\obj\x86\Debug\App_tmp.pdb
+D:\Documents\Visual Studio 2010\Projects\GiS_app_tmp\App_tmp\bin\Debug\App_tmp.exe.config

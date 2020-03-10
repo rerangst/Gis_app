@@ -29,7 +29,7 @@ namespace App_tmp
         {
             foreach (var item in sf.Keys)
             {
-                if (item != "dongnama"&& options[item])
+                if (options[item])
                 {
                     string sql = String.Format("SELECT * FROM " + item);
                     DataProvider dp = new DataProvider();
@@ -52,9 +52,70 @@ namespace App_tmp
                         tmpRoot.Nodes.Add(tmpChirld);
                     }
                     //tvData.AfterSelect += new TreeViewEventHandler(tvData_AfterSelect);
-                    tvData.NodeMouseClick += new TreeNodeMouseClickEventHandler(tvData_NodeMouseClick);
+                    //tvData.NodeMouseClick += new TreeNodeMouseClickEventHandler(tvData_NodeMouseClick);
+                    tvData.NodeMouseDoubleClick += new TreeNodeMouseClickEventHandler(tvData_NodeMouseDoubleClick);
                     
                 }
+            }
+        }
+
+        void tvData_NodeMouseDoubleClick(object sender, TreeNodeMouseClickEventArgs e)
+        {
+            var tmpChirldNode = (sender as TreeView).SelectedNode;
+
+            //MessageBox.Show(e.GetType().ToString());
+            if (tmpChirldNode.Parent == null)
+            {
+                return;
+            }
+            else
+            {
+                var tmpParentNode = tmpChirldNode;
+                int indexOfChirld = 0;
+                fPanelAdd.Controls.Clear();
+                while (tmpParentNode.Parent != null)
+                {
+                    tmpParentNode = tmpParentNode.Parent;
+                }
+
+                string sql = String.Format("SELECT * FROM " + tmpParentNode.Text);
+
+                DataProvider dp = new DataProvider();
+                dataSource = dp.ExecuteQuery(sql);
+
+                for (int i = 0; i < dataSource.Columns["ten"].Table.Rows.Count; i++)
+                {
+                    Object cellValue = dataSource.Rows[i]["ten"];
+                    if (tmpChirldNode.Text == Convert.ToString(cellValue))
+                    {
+                        indexOfChirld = i;
+                        break;
+                    }
+                }
+                //Add control
+                for (int i = 0; i < dataSource.Columns.Count; i++)
+                {
+                    Label tmp_lb = new Label();
+                    tmp_lb.Text = dataSource.Columns[i].ColumnName;
+                    fPanelAdd.Controls.Add(tmp_lb);
+                    TextBox txt_tmp = new TextBox();
+                    txt_tmp.Name = dataSource.Columns[i].ColumnName;
+                    txt_tmp.Text = Convert.ToString(dataSource.Rows[indexOfChirld][i]);
+
+                    fPanelAdd.Controls.Add(txt_tmp);
+                }
+                if (tmpParentNode.Text == "brunei_airports")
+                {
+                    //DataProvider tmpdp = new DataProvider();
+                    using (System.IO.MemoryStream ms = new System.IO.MemoryStream(dp.GetImage(tmpParentNode.Text, tmpChirldNode.Text)))
+                    {
+                        pbImage.Image = Image.FromStream(ms);
+                    }
+                    dp.GetImage(tmpParentNode.Text, tmpChirldNode.Text);
+                }
+                
+
+                ZoomToShape(tmpParentNode.Text, indexOfChirld);
             }
         }
 
